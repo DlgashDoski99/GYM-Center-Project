@@ -1,0 +1,678 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,500&family=Source+Sans+Pro&display=swap');
+
+
+* {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+} 
+
+
+header {
+
+height: 100vh;    
+background-image: url(pexels-anush-gorak-1229356.jpg);
+background-position: 1% 50%;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+
+.nav {
+
+height: 15vh;
+width: 100%;
+background-image: linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.8)) ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+/*logo */
+
+.logo{
+
+width: 30%;    
+margin-left: 90px;
+
+}
+
+.logo .firsttname {
+
+color: #fff;    
+font-size: 30px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-family: sans-serif;
+}
+
+.logo .lastname{
+
+color: #0a97b0 ;
+}
+
+.logo p {
+
+margin-left: 8px;
+font-size: 18px;
+color: #fff;
+}
+
+
+.menu {
+
+list-style-type: none;
+display: flex;
+width: 50%;
+
+}
+
+.menu .list {
+
+color: #fff;    
+margin: 20px;
+
+
+}
+
+.menu .list .listitem {
+
+color: #fff;
+background-image: linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,0.4));
+border-radius: 10px;
+padding: 10px 15px;
+text-decoration: none;
+font-size: 20px;
+font-weight: 500;
+font-family: sans-serif ;
+text-transform: uppercase;
+transition: all 0.2s;
+}
+
+.list .listitem:hover {
+
+border-bottom: 2px solid #eee;
+
+}
+
+/*heading*/
+
+.heading {
+
+width: 900px;
+position: relative;
+color: #fff;
+position: absolute;
+top: 45%;
+left: 5%;
+}
+
+.texting {
+
+    width: 100%;
+
+}
+
+.texting h2{
+
+color: #0a97b0;
+font-size: 42px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-family: sans-serif;
+
+}
+
+.texting h3{
+
+font-size: 47px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-family: sans-serif;
+
+}
+
+.texting p{
+
+width: 700px;
+margin-top: 10px;
+font-size: 16px;
+letter-spacing: 1px;
+
+}
+
+.texting .textingbtn{
+
+width: 170px;    
+margin-top: 30px;
+margin-left: 190px; 
+padding: 10px 15px;
+color: #fff;
+background-color: #0a97b0;
+border-radius: 5px;
+outline: none;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+transition: 0.3s;
+
+}
+
+.textingbtn:hover{
+
+transform: scale(1.1);
+cursor: pointer;
+
+}
+
+/* socilas */
+
+.oursocials {
+
+height: 15vh;
+background-color: #333;
+color: #fff;
+
+}
+
+.socialandbutton {
+
+width: 1000px;    
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100%;
+width: 60%;
+margin: 0 auto 0;
+
+}
+
+.twitter {
+
+width: 30%;    
+display: flex;
+margin: 10px;
+
+}
+
+
+.twitter i {
+
+margin-left: -20px;
+font-size: 70px;
+color: #0a97b0; 
+
+}
+
+.twitter p {
+
+font-size: 20px;
+font-family: sans-serif;
+margin: 19px;
+text-align: center;
+
+}
+
+.followbtn button {
+
+
+margin-right: 30px;
+padding: 10px 15px;
+width:125px ;
+height: 35px;
+color: #fff;
+background-color: #706c61;
+text-align: center;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 16px;
+font-weight: 600;
+border-radius: 4px;
+letter-spacing: 1px;
+transition: transform .3s;
+}
+
+.followbtn button:active {
+
+transform: translateY(5px);
+
+}
+
+/* features */
+
+.features {
+
+height: 140vh;
+width: 100%;
+background-color: #171528;
+color: #fff;
+padding-top: 60px;
+}
+
+.cards {
+
+display: flex;
+justify-content: space-between;
+width: 88%;
+margin: 40px auto;
+
+}
+
+.card {
+
+height: 250px;
+width: 350px;  
+background-color: #555;
+margin: 20px;
+padding: 20px;
+border-radius: 10px;
+}
+
+.card h2 {
+
+color: #eee;  
+font-size: 30px;
+font-weight: 500;
+font-family: sans-serif;
+text-transform: uppercase;
+font-style: italic;
+
+}
+
+
+.card h1 {
+
+  color: #eee;  
+  font-size: 38px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 10px 0;
+  }
+
+
+.card p {
+
+  color: #ccc;  
+  font-size: 15px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  font-style: italic;
+  margin: 12px 0;
+  }
+
+/* news and updates */
+
+.slash {
+
+color: #0a97b0;
+font-size: 40px;
+
+}
+
+.news {
+
+display: flex;
+
+}
+
+.news2 {
+
+display: flex;
+width: 80%;
+margin: 10px auto;
+}
+
+.news2 h1,
+.righttop h1,
+.rightbottom h1 {
+
+font-size: 2.5rem;
+color: #fff;
+font-family: sans-serif;
+}
+
+
+.leftside {
+
+border-right: 2px solid #fff ;
+width: 50%;
+}
+
+.newscard {
+
+display: flex;
+height: 150px;
+width: 90%;
+margin: 20px;
+padding-right: 20px;
+
+}
+
+.newscard img {
+
+height: 150px;
+width: 270px;
+border: 1px solid #fff;
+}
+
+.newstext {
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-left: 30px;
+}
+
+.newstext h2 {
+
+color: #fff;
+font-size: 1.5rem;
+font-family: sans-serif;
+}
+
+.newstext p {
+
+color: #fff;
+font-size: 1rem;
+
+}
+
+/* rightside */
+
+.rightside {
+
+margin-left: 40px;
+width: 40%;
+
+}
+
+.righttop {
+
+display: flex;
+flex-direction: column;
+height: 50%;
+width: 100%;
+
+}
+
+.righttop h1 {
+
+text-align: center;
+
+}
+
+.righttop ul {
+
+list-style-type: none;
+font-size: 1.5rem;
+letter-spacing: 1px;
+line-height: 1.5;
+margin-top: 20px;
+}
+
+.righttop li {
+
+margin-left: 20px;
+font-family: sans-serif;
+font-weight: 400;
+text-transform: uppercase;
+}
+
+.righttop ul li::before {
+
+content: "";
+display: inline-block;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+background-color: #0a97b0;
+margin-right: 10px;
+}
+
+.rightbottom {
+
+display: flex;
+flex-direction: column;
+height: 70%;
+width: 100%;
+}
+
+.rightbottom h1 {
+
+text-align: center;
+font-family: sans-serif;
+font-size: 2.3rem;
+font-weight: 600;
+text-transform: uppercase;
+color: #fff;
+}
+
+.rightbottom p {
+
+margin-top: 20px;
+font-family: sans-serif;
+line-height: 1.4;
+color: #fff;
+}
+
+.rightbottom h2 {
+
+text-align: right;
+margin-top: 20px;
+line-height: 1.2;
+color: #fff;
+text-transform: uppercase;
+font-weight: 700;
+font-family: sans-serif ;
+}
+
+/* about me */
+
+.aboutme {
+
+height: 75vh;
+width: 100%;
+background-color: #555;
+
+}
+
+.about {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+height: 60vh;
+margin-left: 90px;
+padding-top: 80px;
+}
+
+
+.myself {
+
+height: 430px;
+width: 30%;
+border-right: 1px solid #fff;
+}
+
+.slash2{
+
+color: #0a97b0;
+font-size: 30px;
+
+}
+
+.myself h2{
+
+margin: 20px 0;
+color: #fff;
+font-weight: 600;
+}
+
+.myself img {
+
+height: 200px;
+width:290px;
+object-fit: cover;
+}
+
+.myself p {
+
+color: #ccc;
+margin: 10px 0;
+font-weight: 400;
+font-size: 1.3rem;
+line-height: 1.2;
+}
+
+.amnavigations {
+
+width: 20%;
+margin-bottom: 140px;
+padding: 15px;
+}
+
+.amnavigations h2 {
+
+color: #fff;
+margin-bottom: 20px;
+font-size: 1.8rem;
+font-weight: 600;
+
+}
+
+.amnavigations ul li {
+
+list-style: none;
+color: #ccc;
+margin: 20px 0;
+font-family: sans-serif;
+font-weight: 600;
+border-bottom: 1px solid #ccc;
+padding-bottom: 10px;
+}
+
+.Archives {
+
+height: 410px;
+width: 22%;
+border-left: 1px solid #fff;
+padding-left: 30px;
+
+}
+
+.Archives h2 {
+  
+color: #fff;
+margin-left: 10px 0;
+font-weight: 600;
+font-size: 2rem;
+}
+
+.Archives ul li{
+width: 200px;
+color: #ccc;
+list-style-type: none;
+margin: 20px 0;
+font-weight: 600;
+border-bottom: 1px solid #fff;
+padding-bottom: 10px;
+}
+
+.Archives span {
+
+color: #0a97b0;
+
+}
+
+.latestcomments {
+
+border-left: 1px solid #fff;
+height: 410px;
+width: 25%;
+padding-left: 35px;
+}
+
+.latestcomments h2 {
+
+  color: #fff;
+  height: 100px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.8rem; 
+}
+
+.images {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 100PX;
+width: 105%;
+}
+
+.images img {
+
+height: 100px;
+width: 100px;
+border-radius: 50%;
+border: 3px solid #fff;
+padding: 2px;
+}
+
+.images h3 {
+
+color: #0a97b0;
+font-size: 1.2rem;
+font-weight: 600;
+font-family: sans-serif;
+line-height: 1.5;
+cursor: pointer;
+} 
+
+.date {
+
+color: #fff;
+font-size: 1rem;
+}
+
+.latestcomments p {
+
+color: #ccc;
+margin-top: 15px;
+letter-spacing: 1px;
+}
+
+
+/* footer */
+
+footer {
+
+height: 10vh;
+width: 100%;
+background-color: #171528;
+color: #ccc;
+font-size: 1.2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Dlgash {
+
+font-family: sans-serif;
+font-weight: 600;
+color: #0a97b0;
+
+}
+
+
+/* hello i am Dlgash Q Mikaeel i am a frontend web developer i just create this GYM CENTER project to improvimg my skills on web developent */
